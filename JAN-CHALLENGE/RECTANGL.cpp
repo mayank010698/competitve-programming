@@ -4,14 +4,14 @@
 using namespace std;
 
 int main(){
-	long int t;
+	int t;
 	cin>>t;
 
 	
 	while(t--){
-		vector<long int> sides;
+		vector<int> sides;
 		for(int i=0;i<4;i++){
-		long int side;
+		int side;
 		cin>>side;
 		sides.push_back(side);
 		}
